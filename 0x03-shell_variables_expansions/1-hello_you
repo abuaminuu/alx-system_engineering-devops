@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%-*s\n" 10 "$(id -un)" | tr ' ' '0'
+printf "%-*s\n" 13 "$(id -un)" | tr ' ' '0'
