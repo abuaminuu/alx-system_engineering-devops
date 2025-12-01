@@ -1,3 +1,2 @@
 #!/bin/bash
-x=12  # define the length
-printf "%-*s\n" $x "$(id -un)" | tr ' ' '0'
+printf "%-*s\n" 10 "$(id -un)" | tr ' ' '0'
